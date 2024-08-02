@@ -1,30 +1,38 @@
-Microservices Architecture Project
-Overview
+Microservices Architecture Project Overview
+
 This project showcases a complete microservices architecture with several key components designed to demonstrate modern software practices and cloud-native technologies. It includes an API Gateway, Config Server, distributed tracing with Zipkin, resilience patterns with Resilience4j, load balancing, service discovery, and service registry.
 
 Project Components
 1. API Gateway
 Technology: Spring Cloud Gateway
 Purpose: Manages routing of incoming requests and handles cross-cutting concerns such as security and logging.
+
 2. Config Server
 Technology: Spring Cloud Config
 Purpose: Externalizes configuration for all microservices, ensuring consistent and centralized management of application properties.
+
 3. Distributed Tracing
 Technology: Zipkin
 Purpose: Provides end-to-end tracing of requests across microservices, allowing for easy tracking of request flows and performance bottlenecks.
+
 4. Resilience Patterns
 Technology: Resilience4j
 Purpose: Implements resilience patterns such as circuit breakers, retries, and rate limiting to enhance system robustness and fault tolerance.
+
 5. Load Balancer
 Technology: Spring Cloud LoadBalancer
 Purpose: Distributes incoming requests across multiple service instances to balance load and improve system availability.
+
 6. Feign Client
 Technology: Spring Cloud OpenFeign
 Purpose: Simplifies service-to-service communication by using declarative REST clients.
+
 7. Service Discovery & Registry
 Technology: Eureka
 Purpose: Registers microservices dynamically, enabling service discovery and interaction between services without hardcoding service URLs.
+
 Getting Started
+
 Prerequisites
 Java 11 or later
 Maven or Gradle
